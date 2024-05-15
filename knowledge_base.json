@@ -1,0 +1,12 @@
+{
+  "questions": [
+    {
+      "question": "hello",
+      "answer": "Hello there!"
+    },
+    {
+      "question": "hello my name is Marko",
+      "answer": "Hello Marko! My name is ChatBot nice to meet you!"
+    }
+  ]
+}
