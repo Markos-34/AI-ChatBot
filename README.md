@@ -1,0 +1,11 @@
+Overview: This Python script implements a simple chatbot that interacts with users by answering their questions. It utilizes a knowledge base stored in a JSON file to retrieve answers to common questions and prompts users to teach new responses for questions it doesn't know. The chatbot aims to provide a user-friendly and engaging experience for users seeking information or assistance.
+
+Dependencies: The script relies on external libraries such as json and requests to function properly. These libraries handle tasks such as reading and writing JSON files and making HTTP requests to fetch trivia questions. Users need to ensure that these dependencies are installed on their system before running the script.
+
+Functionality: The script follows a simple flow where it first loads the knowledge base from a JSON file. It then continuously prompts the user for input, processing their questions and providing appropriate responses. If the chatbot recognizes the user's question based on the existing knowledge base, it retrieves the corresponding answer. Otherwise, it fetches a trivia question from an external API or prompts the user to teach a new response.
+
+Knowledge Base: The knowledge base is stored in a JSON file and consists of question-answer pairs. Each entry in the file contains a question and its corresponding answer. Users can expand the knowledge base by adding new question-answer pairs to the JSON file, allowing the chatbot to provide more accurate and comprehensive responses over time.
+
+Usage: To run the chatbot, users simply execute the Python script and interact with it via the command line. They can input their questions and receive responses from the chatbot in real-time. Additionally, users can contribute to the project by adding new question-answer pairs to the knowledge base or suggesting improvements via GitHub.
+
+Contributing: Contributions to the project are welcome and encouraged. Users can contribute by adding new question-answer pairs to the knowledge base, improving the chatbot's functionality, or fixing any issues they encounter. To contribute, users can fork the repository, make their changes, and submit a pull request. Detailed guidelines for contributing are provided in the project's README file.
